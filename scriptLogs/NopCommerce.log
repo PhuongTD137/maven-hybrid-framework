@@ -1,0 +1,309 @@
+[2024-02-22 23:34:21,495] - Register - Step 01: Navigate to 'Register' page
+[2024-02-22 23:34:22,706] - Register - Step 02: Select to Radio button
+[2024-02-22 23:34:23,131] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-22 23:34:23,339] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-22 23:34:23,443] - Register - Step 05: Enter to Email textbox with value is'automationfc7164@gmail.com'
+[2024-02-22 23:34:23,594] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-22 23:34:23,721] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-22 23:34:23,830] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-22 23:34:23,928] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-22 23:34:24,347] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-22 23:34:24,695] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-22 23:34:25,027] - Register - Step 12: Select checkbox by ID
+[2024-02-22 23:34:25,100] - Register - Step 13: Click 'Register' button
+[2024-02-22 23:34:25,919] - Register - Step 14: Verify register success message is displayed
+[2024-02-22 23:34:26,093] - Register - Step 15: Click 'Continue' button
+[2024-02-22 23:34:26,800] - Login - Step 01: Navigate to 'Login' page
+[2024-02-22 23:34:27,357] - Login - Step 02: Enter to Email textbox with value is 'automationfc7164@gmail.com'
+[2024-02-22 23:34:27,558] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-22 23:34:27,679] - Login - Step 04: Click 'Log in' button
+[2024-02-22 23:34:28,420] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-22 23:34:28,617] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-22 23:34:29,074] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-22 23:34:29,276] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-22 23:34:29,379] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-22 23:34:29,466] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-22 23:34:29,549] - OS name = windows 10
+[2024-02-22 23:34:29,549] - Driver instance name = firefoxdriver: firefox on windows (6d486855-2092-4e65-89bd-379f716950c1)
+[2024-02-22 23:35:10,276] - Register - Step 01: Navigate to 'Register' page
+[2024-02-22 23:35:11,482] - Register - Step 02: Select to Radio button
+[2024-02-22 23:35:11,944] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-22 23:35:12,139] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-22 23:35:12,283] - Register - Step 05: Enter to Email textbox with value is'automationfc7818@gmail.com'
+[2024-02-22 23:35:12,444] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-22 23:35:12,608] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-22 23:35:12,733] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-22 23:35:12,837] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-22 23:35:13,260] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-22 23:35:13,589] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-22 23:35:13,914] - Register - Step 12: Select checkbox by ID
+[2024-02-22 23:35:13,982] - Register - Step 13: Click 'Register' button
+[2024-02-22 23:35:14,719] - Register - Step 14: Verify register success message is displayed
+[2024-02-22 23:35:14,877] - Register - Step 15: Click 'Continue' button
+[2024-02-22 23:35:15,475] - Login - Step 01: Navigate to 'Login' page
+[2024-02-22 23:35:15,979] - Login - Step 02: Enter to Email textbox with value is 'automationfc7818@gmail.com'
+[2024-02-22 23:35:16,168] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-22 23:35:16,284] - Login - Step 04: Click 'Log in' button
+[2024-02-22 23:35:17,001] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-22 23:35:17,221] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-22 23:35:17,700] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-22 23:35:17,856] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-22 23:35:17,910] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-22 23:35:17,975] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-22 23:35:18,060] - OS name = windows 10
+[2024-02-22 23:35:18,060] - Driver instance name = firefoxdriver: firefox on windows (6bb23c45-aff5-4986-a0ec-53db4f2cfa27)
+[2024-02-23 18:00:23,500] - Register - Step 01: Navigate to 'Register' page
+[2024-02-23 18:00:24,808] - Register - Step 02: Select to Radio button
+[2024-02-23 18:00:25,198] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-23 18:00:25,393] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-23 18:00:25,484] - Register - Step 05: Enter to Email textbox with value is'automationfc3679@gmail.com'
+[2024-02-23 18:00:25,604] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-23 18:00:25,737] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-23 18:00:25,849] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-23 18:00:25,975] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-23 18:00:26,406] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-23 18:00:26,733] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-23 18:00:27,063] - Register - Step 12: Select checkbox by ID
+[2024-02-23 18:00:27,158] - Register - Step 13: Click 'Register' button
+[2024-02-23 18:00:27,946] - Register - Step 14: Verify register success message is displayed
+[2024-02-23 18:00:28,070] - Register - Step 15: Click 'Continue' button
+[2024-02-23 18:00:29,082] - Login - Step 01: Navigate to 'Login' page
+[2024-02-23 18:00:29,593] - Login - Step 02: Enter to Email textbox with value is 'automationfc3679@gmail.com'
+[2024-02-23 18:00:29,736] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-23 18:00:29,845] - Login - Step 04: Click 'Log in' button
+[2024-02-23 18:00:30,564] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-23 18:00:30,735] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-23 18:00:31,197] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-23 18:00:31,312] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-23 18:00:31,376] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-23 18:00:31,437] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-23 18:00:31,504] - OS name = windows 10
+[2024-02-23 18:00:31,504] - Driver instance name = firefoxdriver: firefox on windows (48c00732-df26-4725-a2d3-6cf38f36e0ec)
+[2024-02-23 18:17:27,549] - Register - Step 01: Navigate to 'Register' page
+[2024-02-23 18:17:29,237] - Register - Step 02: Select to Radio button
+[2024-02-23 18:17:29,666] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-23 18:17:29,868] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-23 18:17:29,965] - Register - Step 05: Enter to Email textbox with value is'automationfc8905@gmail.com'
+[2024-02-23 18:17:30,098] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-23 18:17:30,232] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-23 18:17:30,337] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-23 18:17:30,450] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-23 18:17:30,826] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-23 18:17:31,150] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-23 18:17:31,484] - Register - Step 12: Select checkbox by ID
+[2024-02-23 18:17:31,552] - Register - Step 13: Click 'Register' button
+[2024-02-23 18:17:34,517] - Register - Step 14: Verify register success message is displayed
+[2024-02-23 18:17:34,682] - Register - Step 15: Click 'Continue' button
+[2024-02-23 18:17:35,851] - Login - Step 01: Navigate to 'Login' page
+[2024-02-23 18:19:12,375] - Register - Step 01: Navigate to 'Register' page
+[2024-02-23 18:19:14,201] - Register - Step 02: Select to Radio button
+[2024-02-23 18:19:14,559] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-23 18:19:14,760] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-23 18:19:14,890] - Register - Step 05: Enter to Email textbox with value is'automationfc2697@gmail.com'
+[2024-02-23 18:19:15,044] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-23 18:19:15,211] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-23 18:19:15,345] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-23 18:19:15,451] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-23 18:19:15,844] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-23 18:19:16,176] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-23 18:19:16,507] - Register - Step 12: Select checkbox by ID
+[2024-02-23 18:19:16,578] - Register - Step 13: Click 'Register' button
+[2024-02-23 18:19:17,641] - Register - Step 14: Verify register success message is displayed
+[2024-02-23 18:19:17,762] - Register - Step 15: Click 'Continue' button
+[2024-02-23 18:19:18,359] - Login - Step 01: Navigate to 'Login' page
+[2024-02-23 18:19:19,094] - Login - Step 02: Enter to Email textbox with value is 'automationfc2697@gmail.com'
+[2024-02-23 18:19:19,239] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-23 18:19:19,344] - Login - Step 04: Click 'Log in' button
+[2024-02-23 18:19:20,225] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-23 18:19:20,399] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-23 18:19:20,848] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-23 18:19:20,996] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-23 18:19:21,055] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-23 18:19:21,118] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-23 18:19:21,183] - OS name = windows 10
+[2024-02-23 18:19:21,184] - Driver instance name = firefoxdriver: firefox on windows (d227c08a-3123-4114-ad7c-78d2ed7ff7b4)
+[2024-02-26 15:28:14,346] - Register - Step 01: Navigate to 'Register' page
+[2024-02-26 15:28:15,750] - Register - Step 02: Select to Radio button
+[2024-02-26 15:28:16,241] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-26 15:28:16,496] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-26 15:28:16,595] - Register - Step 05: Enter to Email textbox with value is'automationfc2340@gmail.com'
+[2024-02-26 15:28:16,746] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-26 15:28:16,901] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-26 15:28:17,001] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-26 15:28:17,096] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-26 15:28:17,494] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-26 15:28:17,809] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-26 15:28:18,138] - Register - Step 12: Select checkbox by ID
+[2024-02-26 15:28:18,232] - Register - Step 13: Click 'Register' button
+[2024-02-26 15:28:19,012] - Register - Step 14: Verify register success message is displayed
+[2024-02-26 15:28:19,154] - Register - Step 15: Click 'Continue' button
+[2024-02-26 15:28:19,766] - Login - Step 01: Navigate to 'Login' page
+[2024-02-26 15:28:20,298] - Login - Step 02: Enter to Email textbox with value is 'automationfc2340@gmail.com'
+[2024-02-26 15:28:20,448] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-26 15:28:20,547] - Login - Step 04: Click 'Log in' button
+[2024-02-26 15:28:21,329] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-26 15:28:21,517] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-26 15:28:21,970] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-26 15:28:22,123] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-26 15:28:22,195] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-26 15:28:22,259] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-26 15:28:22,326] - OS name = windows 10
+[2024-02-26 15:28:22,327] - Driver instance name = firefoxdriver: firefox on windows (11d7e163-ff42-4432-9a44-f311f211e004)
+[2024-02-26 15:54:11,883] - Register - Step 01: Navigate to 'Register' page
+[2024-02-26 15:54:13,137] - Register - Step 02: Select to Radio button
+[2024-02-26 15:54:13,562] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-26 15:54:13,770] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-26 15:54:13,875] - Register - Step 05: Enter to Email textbox with value is'automationfc2959@gmail.com'
+[2024-02-26 15:54:14,023] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-26 15:54:14,161] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-26 15:54:14,301] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-26 15:54:14,401] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-26 15:54:14,804] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-26 15:54:15,161] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-26 15:54:15,491] - Register - Step 12: Select checkbox by ID
+[2024-02-26 15:54:15,561] - Register - Step 13: Click 'Register' button
+[2024-02-26 15:54:16,358] - Register - Step 14: Verify register success message is displayed
+[2024-02-26 15:54:16,509] - Register - Step 15: Click 'Continue' button
+[2024-02-26 15:54:17,197] - Login - Step 01: Navigate to 'Login' page
+[2024-02-26 15:54:17,788] - Login - Step 02: Enter to Email textbox with value is 'automationfc2959@gmail.com'
+[2024-02-26 15:54:17,987] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-26 15:54:18,131] - Login - Step 04: Click 'Log in' button
+[2024-02-26 15:54:18,986] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-26 15:54:19,204] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-26 15:54:19,678] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-26 15:54:19,859] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-26 15:54:19,932] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-26 15:54:20,013] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-26 15:54:20,095] - OS name = windows 10
+[2024-02-26 15:54:20,096] - Driver instance name = firefoxdriver: firefox on windows (98b0a772-67fc-4181-b6fc-b963df0f81bd)
+[2024-02-26 15:56:08,585] - Register - Step 01: Navigate to 'Register' page
+[2024-02-26 15:56:09,286] - Register - Step 02: Select to Radio button
+[2024-02-26 15:56:09,759] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-26 15:56:09,981] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-26 15:56:10,075] - Register - Step 05: Enter to Email textbox with value is'automationfc2744@gmail.com'
+[2024-02-26 15:56:10,249] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-26 15:56:10,378] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-26 15:56:10,485] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-26 15:56:10,579] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-26 15:56:10,985] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-26 15:56:11,309] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-26 15:56:11,652] - Register - Step 12: Select checkbox by ID
+[2024-02-26 15:56:11,723] - Register - Step 13: Click 'Register' button
+[2024-02-26 15:56:12,548] - Register - Step 14: Verify register success message is displayed
+[2024-02-26 15:56:12,721] - Register - Step 15: Click 'Continue' button
+[2024-02-26 15:56:13,336] - Login - Step 01: Navigate to 'Login' page
+[2024-02-26 15:56:13,925] - Login - Step 02: Enter to Email textbox with value is 'automationfc2744@gmail.com'
+[2024-02-26 15:56:14,133] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-26 15:56:14,252] - Login - Step 04: Click 'Log in' button
+[2024-02-26 15:56:15,081] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-26 15:56:15,298] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-26 15:56:15,716] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-26 15:56:15,903] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-26 15:56:15,990] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-26 15:56:16,067] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-26 15:56:16,136] - OS name = windows 10
+[2024-02-26 15:56:16,136] - Driver instance name = firefoxdriver: firefox on windows (2da9f36f-683e-4cf4-bf87-2b0e4915977f)
+[2024-02-26 17:47:22,481] - Register - Step 01: Navigate to 'Register' page
+[2024-02-26 17:47:23,605] - Register - Step 02: Select to Radio button
+[2024-02-26 17:47:24,020] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-26 17:47:24,220] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-26 17:47:24,309] - Register - Step 05: Enter to Email textbox with value is'automationfc7276@gmail.com'
+[2024-02-26 17:47:24,423] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-26 17:47:24,532] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-26 17:47:24,622] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-26 17:47:24,709] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-26 17:47:25,090] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-26 17:47:25,419] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-26 17:47:25,747] - Register - Step 12: Select checkbox by ID
+[2024-02-26 17:47:25,815] - Register - Step 13: Click 'Register' button
+[2024-02-26 17:47:26,541] - Register - Step 14: Verify register success message is displayed
+[2024-02-26 17:47:26,640] - Register - Step 15: Click 'Continue' button
+[2024-02-26 17:47:27,185] - Login - Step 01: Navigate to 'Login' page
+[2024-02-26 17:47:27,617] - Login - Step 02: Enter to Email textbox with value is 'automationfc7276@gmail.com'
+[2024-02-26 17:47:27,740] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-26 17:47:27,843] - Login - Step 04: Click 'Log in' button
+[2024-02-26 17:47:28,503] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-26 17:47:28,683] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-26 17:47:29,084] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-26 17:47:29,203] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-26 17:47:29,270] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-26 17:47:29,410] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-26 17:47:29,475] - OS name = windows 10
+[2024-02-26 17:47:29,475] - Driver instance name = firefoxdriver: firefox on windows (ca9aebc7-8e97-4d4c-9115-4016568f7e04)
+[2024-02-27 14:05:48,207] - Register - Step 01: Navigate to 'Register' page
+[2024-02-27 14:05:49,433] - Register - Step 02: Select to Radio button
+[2024-02-27 14:05:49,824] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-27 14:05:49,998] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-27 14:05:50,096] - Register - Step 05: Enter to Email textbox with value is'automationfc1043@gmail.com'
+[2024-02-27 14:05:50,212] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-27 14:05:50,322] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-27 14:05:50,406] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-27 14:05:50,504] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-27 14:05:50,908] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-27 14:05:51,254] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-27 14:05:51,586] - Register - Step 12: Select checkbox by ID
+[2024-02-27 14:05:51,659] - Register - Step 13: Click 'Register' button
+[2024-02-27 14:05:52,425] - Register - Step 14: Verify register success message is displayed
+[2024-02-27 14:05:52,538] - Register - Step 15: Click 'Continue' button
+[2024-02-27 14:05:53,110] - Login - Step 01: Navigate to 'Login' page
+[2024-02-27 14:05:53,556] - Login - Step 02: Enter to Email textbox with value is 'automationfc1043@gmail.com'
+[2024-02-27 14:05:53,683] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-27 14:05:53,786] - Login - Step 04: Click 'Log in' button
+[2024-02-27 14:05:54,493] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-27 14:05:54,668] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-27 14:05:55,087] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-27 14:05:55,194] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-27 14:05:55,253] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-27 14:05:55,317] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-27 14:05:55,398] - OS name = windows 10
+[2024-02-27 14:05:55,399] - Driver instance name = firefoxdriver: firefox on windows (a0519750-2f6e-41c1-87a6-0a334bd10b72)
+[2024-02-27 14:07:47,195] - Register - Step 01: Navigate to 'Register' page
+[2024-02-27 14:07:48,416] - Register - Step 02: Select to Radio button
+[2024-02-27 14:07:48,803] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-27 14:07:48,972] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-27 14:07:49,076] - Register - Step 05: Enter to Email textbox with value is'automationfc5775@gmail.com'
+[2024-02-27 14:07:49,187] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-27 14:07:49,299] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-27 14:07:49,402] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-27 14:07:49,524] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-27 14:07:49,853] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-27 14:07:50,163] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-27 14:07:50,474] - Register - Step 12: Select checkbox by ID
+[2024-02-27 14:07:50,537] - Register - Step 13: Click 'Register' button
+[2024-02-27 14:07:51,245] - Register - Step 14: Verify register success message is displayed
+[2024-02-27 14:07:51,361] - Register - Step 15: Click 'Continue' button
+[2024-02-27 14:07:51,907] - Login - Step 01: Navigate to 'Login' page
+[2024-02-27 14:08:22,374] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-27 14:08:23,458] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-27 14:08:23,606] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-27 14:08:23,683] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-27 14:08:23,769] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-27 14:08:23,841] - OS name = windows 10
+[2024-02-27 14:08:23,844] - Driver instance name = firefoxdriver: firefox on windows (64e364f9-3750-4e4d-b433-48005cf41598)
+[2024-02-29 15:08:45,119] - Register - Step 01: Navigate to 'Register' page
+[2024-02-29 15:08:46,347] - Register - Step 02: Select to Radio button
+[2024-02-29 15:08:46,830] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-02-29 15:08:47,116] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-02-29 15:08:47,259] - Register - Step 05: Enter to Email textbox with value is'automationfc3489@gmail.com'
+[2024-02-29 15:08:47,436] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-02-29 15:08:47,578] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-02-29 15:08:47,677] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-02-29 15:08:47,801] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-02-29 15:08:48,215] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-02-29 15:08:48,564] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-02-29 15:08:48,939] - Register - Step 12: Select checkbox by ID
+[2024-02-29 15:08:49,011] - Register - Step 13: Click 'Register' button
+[2024-02-29 15:08:49,858] - Register - Step 14: Verify register success message is displayed
+[2024-02-29 15:08:50,055] - Register - Step 15: Click 'Continue' button
+[2024-02-29 15:08:50,683] - Login - Step 01: Navigate to 'Login' page
+[2024-02-29 15:08:51,210] - Login - Step 02: Enter to Email textbox with value is 'automationfc3489@gmail.com'
+[2024-02-29 15:08:51,357] - Login - Step 03: Enter to Password textbox with value is '123456'
+[2024-02-29 15:08:51,468] - Login - Step 04: Click 'Log in' button
+[2024-02-29 15:08:52,196] - Login - Step 03: Verify 'My Account Link' is displayed
+[2024-02-29 15:08:52,465] - My Account - Step 01: Navigate to 'Customer Infor' page
+[2024-02-29 15:08:52,912] - My Account - Step 02: Verify 'Customer Info' page is displayed
+[2024-02-29 15:08:53,096] - My Account - Step 03: Verify 'First name' textbox is correct
+[2024-02-29 15:08:53,155] - My Account - Step 04: Verify 'Last name' textbox is correct
+[2024-02-29 15:08:53,219] - My Account - Step 05: Verify 'Email' textbox is correct
+[2024-02-29 15:08:53,287] - OS name = windows 10
+[2024-02-29 15:08:53,288] - Driver instance name = firefoxdriver: firefox on windows (84eeba1d-90cf-48c6-b10e-3958d00f97c3)

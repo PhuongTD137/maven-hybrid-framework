@@ -35,6 +35,7 @@ com\nopcommerce\user\Level_05_Page_Factory.class
 com\nopcommerce\data\AdminData.class
 com\nopcommerce\user\Level_17_Custom_Close_Driver.class
 com\nopcommerce\data\UserData$Register.class
+com\nopcommerce\user\Level_21_Multiple_Environment_Parameter.class
 com\nopcommerce\user\Level_20_Manage_Data_III.class
 com\nopcommerce\user\Level_16_Share_Data_A.class
 com\wordpress\posts\Post_01_Create_Read_Update_Delete_Search.class

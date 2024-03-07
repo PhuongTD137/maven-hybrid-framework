@@ -1,267 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
     <line>
-      <![CDATA[[2024-02-26 15:54:11,883] - Register - Step 01: Navigate to 'Register' page
+      <![CDATA[[2024-03-07 08:29:30,895] - OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2024-02-26 15:54:13,137] - Register - Step 02: Select to Radio button
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:13,562] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:13,770] - Register - Step 04: Enter to Lastname textbox with value is'FC'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:13,875] - Register - Step 05: Enter to Email textbox with value is'automationfc2959@gmail.com'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:14,023] - Register - Step 06: Enter to Password textbox with value is'123456'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:14,161] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:14,301] - Register - Step 08: Enter to Company textbox with value is'AFC'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:14,401] - Register - Step 09: Select Birth day dropdown with value is'11'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:14,804] - Register - Step 10: Select Birth month dropdown with value is'May'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:15,161] - Register - Step 11: Select Birth year dropdown with value is'1996'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:15,491] - Register - Step 12: Select checkbox by ID
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:15,561] - Register - Step 13: Click 'Register' button
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:16,358] - Register - Step 14: Verify register success message is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:16,509] - Register - Step 15: Click 'Continue' button
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:17,197] - Login - Step 01: Navigate to 'Login' page
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:17,788] - Login - Step 02: Enter to Email textbox with value is 'automationfc2959@gmail.com'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:17,987] - Login - Step 03: Enter to Password textbox with value is '123456'
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:18,131] - Login - Step 04: Click 'Log in' button
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:18,986] - Login - Step 03: Verify 'My Account Link' is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:19,204] - My Account - Step 01: Navigate to 'Customer Infor' page
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:19,678] - My Account - Step 02: Verify 'Customer Info' page is displayed
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:19,859] - My Account - Step 03: Verify 'First name' textbox is correct
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:19,932] - My Account - Step 04: Verify 'Last name' textbox is correct
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:20,013] - My Account - Step 05: Verify 'Email' textbox is correct
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:20,095] - OS name = windows 10
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[2024-02-26 15:54:20,096] - Driver instance name = firefoxdriver: firefox on windows (98b0a772-67fc-4181-b6fc-b963df0f81bd)
+      <![CDATA[[2024-03-07 08:29:30,897] - 
 <br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-02-26T08:54:02Z" name="NopCommerce" finished-at="2024-02-26T08:54:21Z" duration-ms="19332">
+  <suite started-at="2024-03-07T01:29:30Z" name="Default suite" finished-at="2024-03-07T01:29:30Z" duration-ms="320">
     <groups>
     </groups>
-    <test started-at="2024-02-26T08:54:02Z" name="Run on Firefox" finished-at="2024-02-26T08:54:21Z" duration-ms="19332">
-      <class name="com.nopcommerce.user.Level_20_Manage_Data_IV">
-        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.user.Level_20_Manage_Data_IV@35d5ac51]" started-at="2024-02-26T08:54:01Z" name="initBeforeSuite" finished-at="2024-02-26T08:54:02Z" duration-ms="87" status="PASS">
+    <test started-at="2024-03-07T01:29:30Z" name="Default test" finished-at="2024-03-07T01:29:30Z" duration-ms="320">
+      <class name="com.nopcommerce.user.Level_22_Multiple_Environment_Owner">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.user.Level_22_Multiple_Environment_Owner@26a4842b]" started-at="2024-03-07T01:29:30Z" name="initBeforeSuite" finished-at="2024-03-07T01:29:30Z" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBeforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_20_Manage_Data_IV@35d5ac51]" started-at="2024-02-26T08:54:02Z" name="beforeClass" finished-at="2024-02-26T08:54:10Z" duration-ms="8800" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_22_Multiple_Environment_Owner@26a4842b]" started-at="2024-03-07T01:29:30Z" name="beforeClass" finished-at="2024-03-07T01:29:30Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Register(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_20_Manage_Data_IV@35d5ac51]" started-at="2024-02-26T08:54:10Z" name="User_01_Register" finished-at="2024-02-26T08:54:16Z" duration-ms="6019" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.nopcommerce.user.Level_20_Manage_Data_IV.User_01_Register(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_22_Multiple_Environment_Owner@26a4842b]" started-at="2024-03-07T01:29:30Z" name="User_01_Register" finished-at="2024-03-07T01:29:30Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[[2024-02-26 15:54:11,883] - Register - Step 01: Navigate to 'Register' page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:13,137] - Register - Step 02: Select to Radio button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:13,562] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:13,770] - Register - Step 04: Enter to Lastname textbox with value is'FC'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:13,875] - Register - Step 05: Enter to Email textbox with value is'automationfc2959@gmail.com'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:14,023] - Register - Step 06: Enter to Password textbox with value is'123456'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:14,161] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:14,301] - Register - Step 08: Enter to Company textbox with value is'AFC'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:14,401] - Register - Step 09: Select Birth day dropdown with value is'11'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:14,804] - Register - Step 10: Select Birth month dropdown with value is'May'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:15,161] - Register - Step 11: Select Birth year dropdown with value is'1996'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:15,491] - Register - Step 12: Select checkbox by ID
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:15,561] - Register - Step 13: Click 'Register' button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:16,358] - Register - Step 14: Verify register success message is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:16,509] - Register - Step 15: Click 'Continue' button
-<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- User_01_Register -->
-        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_20_Manage_Data_IV@35d5ac51]" started-at="2024-02-26T08:54:17Z" name="User_02_Login" finished-at="2024-02-26T08:54:19Z" duration-ms="2017" status="PASS">
+        <test-method signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_22_Multiple_Environment_Owner@26a4842b]" started-at="2024-03-07T01:29:30Z" name="User_02_Login" finished-at="2024-03-07T01:29:30Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[[2024-02-26 15:54:17,197] - Login - Step 01: Navigate to 'Login' page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:17,788] - Login - Step 02: Enter to Email textbox with value is 'automationfc2959@gmail.com'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:17,987] - Login - Step 03: Enter to Password textbox with value is '123456'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:18,131] - Login - Step 04: Click 'Log in' button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:18,986] - Login - Step 03: Verify 'My Account Link' is displayed
-<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- User_02_Login -->
-        <test-method signature="User_03_My_Account()[pri:0, instance:com.nopcommerce.user.Level_20_Manage_Data_IV@35d5ac51]" started-at="2024-02-26T08:54:19Z" name="User_03_My_Account" finished-at="2024-02-26T08:54:20Z" duration-ms="888" status="PASS">
+        <test-method signature="User_03_My_Account()[pri:0, instance:com.nopcommerce.user.Level_22_Multiple_Environment_Owner@26a4842b]" started-at="2024-03-07T01:29:30Z" name="User_03_My_Account" finished-at="2024-03-07T01:29:30Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-2033182682\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[[2024-02-26 15:54:19,204] - My Account - Step 01: Navigate to 'Customer Infor' page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:19,678] - My Account - Step 02: Verify 'Customer Info' page is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:19,859] - My Account - Step 03: Verify 'First name' textbox is correct
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:19,932] - My Account - Step 04: Verify 'Last name' textbox is correct
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2024-02-26 15:54:20,013] - My Account - Step 05: Verify 'Email' textbox is correct
-<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- User_03_My_Account -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_20_Manage_Data_IV@35d5ac51]" started-at="2024-02-26T08:54:20Z" name="afterClass" finished-at="2024-02-26T08:54:21Z" duration-ms="1308" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_22_Multiple_Environment_Owner@26a4842b]" started-at="2024-03-07T01:29:30Z" name="afterClass" finished-at="2024-03-07T01:29:30Z" duration-ms="5" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.lang.Runtime.exec(Runtime.java:406)
+at java.base/java.lang.Runtime.exec(Runtime.java:310)
+at commons.BaseTest.closeBrowserDriver(BaseTest.java:281)
+at com.nopcommerce.user.Level_22_Multiple_Environment_Owner.afterClass(Level_22_Multiple_Environment_Owner.java:150)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
-              <![CDATA[[2024-02-26 15:54:20,095] - OS name = windows 10
+              <![CDATA[[2024-03-07 08:29:30,895] - OS name = windows 10
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2024-02-26 15:54:20,096] - Driver instance name = firefoxdriver: firefox on windows (98b0a772-67fc-4181-b6fc-b963df0f81bd)
+              <![CDATA[[2024-03-07 08:29:30,897] - 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.Level_20_Manage_Data_IV -->
-    </test> <!-- Run on Firefox -->
-  </suite> <!-- NopCommerce -->
+      </class> <!-- com.nopcommerce.user.Level_22_Multiple_Environment_Owner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

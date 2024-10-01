@@ -44,6 +44,7 @@ utilities\JDBCHelper.class
 pageUIs\nopCommerce\user\UserLoginPageUI.class
 pageObjects\nopCommerce\user\UserRegisterPageObject.class
 pageObjects\wordpress\EndUserSearchPostPO.class
+utilities\Environment.class
 commons\BasePageFactory$1.class
 pageObjects\nopCommerce\user\UserMyProductReviewPageObject.class
 reportConfig\AllureTestListener.class

@@ -10,6 +10,8 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	
+	<parameter name="environment" value="dev"></parameter>
+	
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>

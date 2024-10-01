@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Run on Firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 06 13:39:45 ICT 2024</td>
+<td>Started on:</td><td>Fri May 10 16:36:22 ICT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19569 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15410 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,169 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.user.Level_20_Manage_Data_IV.User_02_Login()'><b>User_02_Login</b><br>Test class: com.nopcommerce.user.Level_20_Manage_Data_IV<br/>
+<a href="#Output-1768140989" onClick='toggleBox("Output-1768140989", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1768140989" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1768140989">
+[2024-05-10 16:36:38,203] - Login - Step 01: Navigate to 'Login' page
+<br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QLAFB8M&apos;, ip: &apos;192.168.1.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28836, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0eba974d-cd46-4591-9dd2-1bbd871544dc
+*** Element info: {Using=css selector, value=a.ico-login}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at commons.BasePage.waitForElementClickable(BasePage.java:503)
+	at pageObjects.nopCommerce.user.UserHomePageObject.clickLoginLink(UserHomePageObject.java:27)
+	at com.nopcommerce.user.Level_20_Manage_Data_IV.User_02_Login(Level_20_Manage_Data_IV.java:105)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1768140989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1768140989'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QLAFB8M&apos;, ip: &apos;192.168.1.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28836, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0eba974d-cd46-4591-9dd2-1bbd871544dc
+*** Element info: {Using=css selector, value=a.ico-login}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at commons.BasePage.waitForElementClickable(BasePage.java:503)
+	at pageObjects.nopCommerce.user.UserHomePageObject.clickLoginLink(UserHomePageObject.java:27)
+	at com.nopcommerce.user.Level_20_Manage_Data_IV.User_02_Login(Level_20_Manage_Data_IV.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.nopcommerce.user.Level_20_Manage_Data_IV@60783105</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Level_20_Manage_Data_IV.User_02_Login()'><b>User_02_Login</b><br>Test class: com.nopcommerce.user.Level_20_Manage_Data_IV</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QLAFB8M&apos;, ip: &apos;192.168.1.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28836, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0eba974d-cd46-4591-9dd2-1bbd871544dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at reportConfig.ExtentTestListener.onTestFailure(ExtentTestListener.java:45)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32400436", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace32400436'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QLAFB8M&apos;, ip: &apos;192.168.1.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28836, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0eba974d-cd46-4591-9dd2-1bbd871544dc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at reportConfig.ExtentTestListener.onTestFailure(ExtentTestListener.java:45)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.nopcommerce.user.Level_20_Manage_Data_IV@60783105</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,88 +238,46 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.nopcommerce.user.Level_21_Multiple_Environment_Parameter.User_01_Register()'><b>User_01_Register</b><br>Test class: com.nopcommerce.user.Level_21_Multiple_Environment_Parameter<br/>
-<a href="#Output-1798217138" onClick='toggleBox("Output-1798217138", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.nopcommerce.user.Level_20_Manage_Data_IV.User_01_Register()'><b>User_01_Register</b><br>Test class: com.nopcommerce.user.Level_20_Manage_Data_IV<br>Parameters: public void com.nopcommerce.user.Level_20_Manage_Data_IV.User_01_Register(java.lang.reflect.Method)<br/>
+<a href="#Output-1436571084" onClick='toggleBox("Output-1436571084", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1798217138" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1798217138">
-[2024-03-06 13:39:55,186] - Register - Step 01: Navigate to 'Register' page
+<a href="#Output-1436571084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1436571084">
+[2024-05-10 16:36:32,354] - Register - Step 01: Navigate to 'Register' page
 <br><br/>
-[2024-03-06 13:39:56,447] - Register - Step 02: Select to Radio button
+[2024-05-10 16:36:33,668] - Register - Step 02: Select to Radio button
 <br><br/>
-[2024-03-06 13:39:56,931] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
+[2024-05-10 16:36:34,161] - Register - Step 03: Enter to Firstname textbox with value is'Automation'
 <br><br/>
-[2024-03-06 13:39:57,194] - Register - Step 04: Enter to Lastname textbox with value is'FC'
+[2024-05-10 16:36:34,366] - Register - Step 04: Enter to Lastname textbox with value is'FC'
 <br><br/>
-[2024-03-06 13:39:57,326] - Register - Step 05: Enter to Email textbox with value is'automationfc6579@gmail.com'
+[2024-05-10 16:36:34,526] - Register - Step 05: Enter to Email textbox with value is'automationfc1640@gmail.com'
 <br><br/>
-[2024-03-06 13:39:57,501] - Register - Step 06: Enter to Password textbox with value is'123456'
+[2024-05-10 16:36:34,655] - Register - Step 06: Enter to Password textbox with value is'123456'
 <br><br/>
-[2024-03-06 13:39:57,654] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
+[2024-05-10 16:36:34,769] - Register - Step 07: Enter to Confirm password textbox with value is'123456'
 <br><br/>
-[2024-03-06 13:39:57,773] - Register - Step 08: Enter to Company textbox with value is'AFC'
+[2024-05-10 16:36:34,894] - Register - Step 08: Enter to Company textbox with value is'AFC'
 <br><br/>
-[2024-03-06 13:39:57,876] - Register - Step 09: Select Birth day dropdown with value is'11'
+[2024-05-10 16:36:35,029] - Register - Step 09: Select Birth day dropdown with value is'11'
 <br><br/>
-[2024-03-06 13:39:58,288] - Register - Step 10: Select Birth month dropdown with value is'May'
+[2024-05-10 16:36:35,470] - Register - Step 10: Select Birth month dropdown with value is'May'
 <br><br/>
-[2024-03-06 13:39:58,684] - Register - Step 11: Select Birth year dropdown with value is'1996'
+[2024-05-10 16:36:35,817] - Register - Step 11: Select Birth year dropdown with value is'1996'
 <br><br/>
-[2024-03-06 13:39:59,016] - Register - Step 12: Select checkbox by ID
+[2024-05-10 16:36:36,158] - Register - Step 12: Select checkbox by ID
 <br><br/>
-[2024-03-06 13:39:59,085] - Register - Step 13: Click 'Register' button
+[2024-05-10 16:36:36,227] - Register - Step 13: Click 'Register' button
 <br><br/>
-[2024-03-06 13:39:59,955] - Register - Step 14: Verify register success message is displayed
+[2024-05-10 16:36:37,014] - Register - Step 14: Verify register success message is displayed
 <br><br/>
-[2024-03-06 13:40:00,124] - Register - Step 15: Click 'Continue' button
+[2024-05-10 16:36:37,164] - Register - Step 15: Click 'Continue' button
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>5</td>
-<td>com.nopcommerce.user.Level_21_Multiple_Environment_Parameter@2881ad47</td></tr>
-<tr>
-<td title='com.nopcommerce.user.Level_21_Multiple_Environment_Parameter.User_02_Login()'><b>User_02_Login</b><br>Test class: com.nopcommerce.user.Level_21_Multiple_Environment_Parameter<br/>
-<a href="#Output-1699756582" onClick='toggleBox("Output-1699756582", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1699756582" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1699756582">
-[2024-03-06 13:40:00,918] - Login - Step 01: Navigate to 'Login' page
-<br><br/>
-[2024-03-06 13:40:01,506] - Login - Step 02: Enter to Email textbox with value is 'automationfc6579@gmail.com'
-<br><br/>
-[2024-03-06 13:40:01,721] - Login - Step 03: Enter to Password textbox with value is '123456'
-<br><br/>
-[2024-03-06 13:40:01,890] - Login - Step 04: Click 'Log in' button
-<br><br/>
-[2024-03-06 13:40:02,670] - Login - Step 03: Verify 'My Account Link' is displayed
-<br><br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>com.nopcommerce.user.Level_21_Multiple_Environment_Parameter@2881ad47</td></tr>
-<tr>
-<td title='com.nopcommerce.user.Level_21_Multiple_Environment_Parameter.User_03_My_Account()'><b>User_03_My_Account</b><br>Test class: com.nopcommerce.user.Level_21_Multiple_Environment_Parameter<br/>
-<a href="#Output-185876853" onClick='toggleBox("Output-185876853", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-185876853" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-185876853">
-[2024-03-06 13:40:02,887] - My Account - Step 01: Navigate to 'Customer Infor' page
-<br><br/>
-[2024-03-06 13:40:03,350] - My Account - Step 02: Verify 'Customer Info' page is displayed
-<br><br/>
-[2024-03-06 13:40:03,567] - My Account - Step 03: Verify 'First name' textbox is correct
-<br><br/>
-[2024-03-06 13:40:03,669] - My Account - Step 04: Verify 'Last name' textbox is correct
-<br><br/>
-[2024-03-06 13:40:03,749] - My Account - Step 05: Verify 'Email' textbox is correct
-<br><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.nopcommerce.user.Level_21_Multiple_Environment_Parameter@2881ad47</td></tr>
+<td>6</td>
+<td>com.nopcommerce.user.Level_20_Manage_Data_IV@60783105</td></tr>
 </table><p>
 </body>
 </html>

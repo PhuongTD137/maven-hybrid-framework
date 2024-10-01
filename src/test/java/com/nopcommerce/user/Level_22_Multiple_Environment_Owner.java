@@ -12,11 +12,11 @@ import com.nopcommerce.data.UserDataMapper;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import freemarker.core.Environment;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import utilities.Environment;
 
 public class Level_22_Multiple_Environment_Owner extends BaseTest {
 	private WebDriver driver;

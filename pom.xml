@@ -176,79 +176,22 @@
 					<target>11</target>
 				</configuration>
 			</plugin>
+			<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.22.2</version>
+						<configuration>
+							<!-- Run TestNG xml file -->
+							<suiteXmlFiles>
+								<suiteXmlFile>src/test/resources/runNopCommerceTest.xml</suiteXmlFile>
+							</suiteXmlFiles>
+
+							<!-- Argument -->
+							<argLine>
+								-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+							</argLine>
+						</configuration>
+					</plugin>
 		</plugins>
 	</build>
-
-	<profiles>
-		<profile>
-			<id>dev</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.22.2</version>
-						<configuration>
-							<!-- Run TestNG xml file -->
-							<suiteXmlFiles>
-								<suiteXmlFile>environmentRunner/dev.xml</suiteXmlFile>
-							</suiteXmlFiles>
-
-							<!-- Argument -->
-							<argLine>
-								-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-							</argLine>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-		<profile>
-			<id>testing</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.22.2</version>
-						<configuration>
-							<!-- Run TestNG xml file -->
-							<suiteXmlFiles>
-								<suiteXmlFile>environmentRunner/testing.xml</suiteXmlFile>
-							</suiteXmlFiles>
-
-							<!-- Argument -->
-							<argLine>
-								-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-							</argLine>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-		<profile>
-			<id>staging</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.22.2</version>
-						<configuration>
-							<!-- Run TestNG xml file -->
-							<suiteXmlFiles>
-								<suiteXmlFile>environmentRunner/staging.xml</suiteXmlFile>
-							</suiteXmlFiles>
-
-							<!-- Argument -->
-							<argLine>
-								-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-							</argLine>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
-
 </project>

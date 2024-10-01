@@ -11,6 +11,7 @@ com\nopcommerce\data\UserData$MyAccount.class
 com\nopcommerce\user\Level_07_Switch_Page.class
 com\nopcommerce\user\Level_06_Page_Generator_Manager_III.class
 com\nopcommerce\user\Level_09_Dynamic_Locator.class
+com\nopcommerce\user\Level_22_Multiple_Environment_Owner.class
 com\nopcommerce\common\Common_01_Register_Cookie.class
 com\nopcommerce\data\ProductData.class
 com\nopcommerce\user\Level_14_Log_ReportNG.class
